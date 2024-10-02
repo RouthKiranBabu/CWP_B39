@@ -7,7 +7,7 @@
       - [Check Anagrams 👉 `Packages & Codes`](https://github.com/RouthKiranBabu/CWP_B39/tree/day_1/Java/Check_Anagrams/checkAnagrams/src)
   - My Approach
       - Used `chatGPT` 👉 For Additional Code Learning
-      - For good **presentation** 👉 Styling Github *readme*
+      - For good **presentation** 👉 Styling Github [*readme*](https://docs.github.com/en/get-started/writing-on-github/getting-started-with-writing-and-formatting-on-github/basic-writing-and-formatting-syntax#headings)
 
 # Pre-requisites
   - [Git](https://git-scm.com/) 👉 [Tutorials](https://www.youtube.com/watch?v=HVsySz-h9r4&list=PL-osiE80TeTuRUfjRe54Eea17-YfnOOAx)

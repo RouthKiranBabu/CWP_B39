@@ -1,0 +1,7 @@
+Java Project:
+Projects may include:
+1. Flow chart
+2. Pseudo code
+3. Presentation
+4. Code explanation
+GitHub having flow chart etc.

@@ -12,4 +12,4 @@
 # Working Days and Tasks
 | Day Number | Task Done | Branch Link |
 | :---: | --- | --- |
-| `1` | 1. [Java Code](https://github.com/RouthKiranBabu/CWP_B39/tree/day_1/Java) 2. [Learning Readme editing.](https://docs.github.com/en/get-started/writing-on-github/getting-started-with-writing-and-formatting-on-github/quickstart-for-writing-on-github#introduction) 3. Learning Git Commands. | https://github.com/RouthKiranBabu/CWP_B39/tree/day_1 |
+| `1` | [Java Code](https://github.com/RouthKiranBabu/CWP_B39/tree/day_1/Java), [Learning Readme editing.](https://docs.github.com/en/get-started/writing-on-github/getting-started-with-writing-and-formatting-on-github/quickstart-for-writing-on-github#introduction), Learning Git Commands. | https://github.com/RouthKiranBabu/CWP_B39/tree/day_1 |

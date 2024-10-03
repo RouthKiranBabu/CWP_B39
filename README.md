@@ -29,10 +29,10 @@
   3. Do the High Priority Work first and then low priority.
   ## Theory
   - Cypress Commands
-      - `cy.visit()`: Navigates to a URL.
-      - `cy.get()`: Finds elements on the page (similar to document.querySelector in JavaScript).
-      - `cy.contains()`: Finds an element containing specific text.
-      - `cy.click()`: Simulates a click on an element.
-      - `cy.type()`: Types text into an input field.
-      - `cy.url()`: Asserts the current URL.
-      - `cy.should()`: Adds an assertion to verify that something should happen (e.g., an element is visible, contains text, etc.).
+      - [x] `cy.visit()`: Navigates to a URL.
+      - [x] `cy.get()`: Finds elements on the page (similar to document.querySelector in JavaScript).
+      - [x] `cy.contains()`: Finds an element containing specific text.
+      - [x] `cy.click()`: Simulates a click on an element.
+      - [ ] `cy.type()`: Types text into an input field.
+      - [ ] `cy.url()`: Asserts the current URL.
+      - [x] `cy.should()`: Adds an assertion to verify that something should happen (e.g., an element is visible, contains text, etc.).

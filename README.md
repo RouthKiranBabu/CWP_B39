@@ -14,11 +14,25 @@
 # 👉Installation Process
   - [Introduction Video](https://students.masaischool.com/lectures/85750?tab=notes).
   - [YouTube video](https://www.youtube.com/watch?v=cnnkb0AuIFI&list=PLUDwpEzHYYLvA7QFkC1C0y0pDPqYS56iU&index=2)
+  - [Node.js](https://nodejs.org/en)
 
 # 👉Code Section
   ## Aim
-    - Start doing Cypress Project as much as Possible
-    - Read Carefully the given documentation and do the Work
+  - Start doing Cypress Project as much as Possible
+  - Read Carefully the given documentation and do the Work
   ## Things Required
   - [Cypress](https://www.cypress.io/)
-  - []
+  - [VS Code](https://code.visualstudio.com/)
+  ## Procedure
+  1. Read the [Documentation](https://docs.google.com/document/d/1Vg_w7W7cWbaoCtJP8Od89vhW4WknQ8QN/edit) Carefully.
+  2. Set High and Low Priority Work.
+  3. Do the High Priority Work first and then low priority.
+  ## Theory
+  - Cypress Commands
+      - `cy.visit()`: Navigates to a URL.
+      - `cy.get()`: Finds elements on the page (similar to document.querySelector in JavaScript).
+      - `cy.contains()`: Finds an element containing specific text.
+      - `cy.click()`: Simulates a click on an element.
+      - `cy.type()`: Types text into an input field.
+      - `cy.url()`: Asserts the current URL.
+      - `cy.should()`: Adds an assertion to verify that something should happen (e.g., an element is visible, contains text, etc.).

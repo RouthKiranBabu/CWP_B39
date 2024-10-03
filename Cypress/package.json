@@ -1,0 +1,17 @@
+{
+  "name": "qafoxcom_automation",
+  "version": "1.0.0",
+  "description": "Cypress Script that automates the Tests.",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Routh Kiran Babu",
+  "license": "ISC",
+  "devDependencies": {
+    "cypress": "^13.15.0"
+  },
+  "dependencies": {
+    "cypress-xpath": "^2.0.1"
+  }
+}

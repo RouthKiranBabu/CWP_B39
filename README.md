@@ -21,6 +21,15 @@ In Java, access modifiers are keywords used to set the accessibility (or visibil
   - `default (no modifier)`: The member is accessible only within the same package.
   - `private`: The member is accessible only within the same class.
 
+
+| Modifier | Class | Package | Subclass (Same Package) | Subclass (Different Package) | World |
+| :--- | :---: | :---: | :---: | :---: | ---: |
+| private |	Yes |	No |	No |	No |	No |
+| default |	Yes |	Yes |	Yes |	No |	No |
+| protected |	Yes |	Yes |	Yes |	Yes |	No |
+| public |	Yes |	Yes |	Yes |	Yes |	Yes |
+
+
 # Practical Approach
   ## Code
   ```java

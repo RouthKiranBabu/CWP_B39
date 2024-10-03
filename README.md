@@ -28,7 +28,7 @@
   2. Set High and Low Priority Work.
   3. Do the High Priority Work first and then low priority.
   ## Theory
-  - Cypress Commands
+  - Cypress Commands Used
       - [x] `cy.visit()`: Navigates to a URL.
       - [x] `cy.get()`: Finds elements on the page (similar to document.querySelector in JavaScript).
       - [x] `cy.contains()`: Finds an element containing specific text.

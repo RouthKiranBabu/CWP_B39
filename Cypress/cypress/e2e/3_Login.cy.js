@@ -8,11 +8,17 @@ function provideData(email, pwd){
     cy.xpath('//input[@name="password"]').type(pwd)
     cy.xpath('//input[@type="submit"]').click()
     cy.xpath('//a[@title="My Account"]').click()
-    try{
-        cy.xpath('//a[contains(text(), "Logout")]').should("be.visible")
-    }catch(error){
-        cy.log(error.message)
+    if (cy.get('.alert').should('be.visible')){
+        cy.log("Wait for 1 Hour!")
         isvalid = false
+    }
+    if (isvalid){
+        try{
+            cy.xpath('//a[contains(text(), "Logout")]').should("be.visible")
+        }catch(error){
+            cy.log(error.message)
+            isvalid = false
+        }
     }
     if(isvalid){
         cy.log("You have Successfully Logged in!")

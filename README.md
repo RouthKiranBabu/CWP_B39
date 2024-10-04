@@ -24,20 +24,16 @@
 
 ```mermaid
 graph TD;
-    Priority-->High;
-    Priority-->Low;
+    Register-->For_First_Time;
+    Register-->Register_Again;
+    Login_Pass-->Register_Again;
+    Register_Again-->Causes_Alert;
 ```
 ```mermaid
 graph TD;
-    HIGH-->Given_documentation_Reading;
-    HIGH-->Project;
-    HIGH-->Completing_On_Time;
-```
-```mermaid
-graph TD;
-    Low-->Tell_the_installation_process_of_VS_code,cypress,JavaScript;
-    Low-->Tell_about_html_element_id,_class,name_etc;
-    Low-->Tell_how_javascript_used_for_testing;
-    Low-->for_screenshot_and_video:_(https://www.youtube.com/watch?v=j2V1M3otMOU);
-    Low-->Project_Documentation;
+    Login-->First_Time;
+    Login-->Many_Time;
+    Login-->With_Wrong_Input;
+    Many_Time-->Couse_Alert;
+    With_Wrong_Input-->Cause_Alert;
 ```

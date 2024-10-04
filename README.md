@@ -34,6 +34,6 @@ graph TD;
     Login-->First_Time;
     Login-->Many_Time;
     Login-->With_Wrong_Input;
-    Many_Time-->Couse_Alert;
+    Many_Time-->Cause_Alert;
     With_Wrong_Input-->Cause_Alert;
 ```
